@@ -3,7 +3,7 @@ from sklearn.tree import DecisionTreeRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error
 
-home_data_path = "./Home data for ML course/train.csv"
+home_data_path = "./Datasets/Home data for ML course/train.csv"
 home_data = pd.read_csv(home_data_path)
 # print(home_data.head())
 
